@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+    <title>AntiForgeryDemo</title>
+    <script src="Scripts/Lib/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/Lib/angular.min.js"></script>
+    <script src="Scripts/Lib/angular-route.min.js"></script>
+    <script src="Scripts/Lib/angular-cookies.min.js"></script>
+    <script src="Scripts/Lib/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+
+    <script src="Scripts/Client/app.js"></script>
+    <script src="Scripts/Client/controllers/testController.js"></script>
+    <script src="Scripts/Client/controllers/homeController.js"></script>
+    <script src="Scripts/Client/services/appService.js"></script>
+    <script src="Scripts/Client/directives/antiForgeryTokenDirective.js"></script>
+    <script src="Scripts/Client/interceptors/antiForgeryInterceptor.js"></script>
+</head>
+    <body ng-view>
+
+    </body>
+</html>
